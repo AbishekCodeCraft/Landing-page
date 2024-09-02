@@ -1,0 +1,30 @@
+.contact-section {
+  display: flex;
+  justify-content: center;
+  /* align-self: center; */
+  margin-top: 10px;
+  height: 250px;
+}
+
+.card-box {
+    padding-top: 10px;
+    width: 300px;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.phone {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.phone .icon {
+  font-size: 50px;
+}
+
+.card-body:hover {
+  background-color: white;
+}

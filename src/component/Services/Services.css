@@ -1,0 +1,18 @@
+.service-header {
+  display: flex;
+  justify-content: center;
+}
+
+.card-body {
+  transition: 0.2s all ease;
+  height: 200px;
+}
+
+.card-body:hover {
+  background-color: rgb(230, 230, 230);
+  cursor: pointer;
+}
+
+.card img {
+  height: 250px;
+}

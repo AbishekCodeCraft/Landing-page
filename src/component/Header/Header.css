@@ -1,0 +1,50 @@
+.container-fluid,
+.row,
+.col {
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+}
+
+.hero-bg {
+  height: 90vh;
+  width: 100%;
+  background-image: url("../../assets//background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.hero-bg .motto {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+
+.motto-1 {
+  height: 70px;
+  width: 300px;
+  background: rgb(39, 39, 39);
+  display: flex;
+  justify-content: center;
+}
+
+.motto-2 {
+  height: 70px;
+  width: 400px;
+  background: rgb(72, 72, 248);
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.motto-1 p,
+.motto-2 p {
+  font-size: 40px;
+  font-weight: 500;
+  color: white;
+}
